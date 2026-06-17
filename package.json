@@ -2,12 +2,12 @@
   "name": "lagoon-theme",
   "displayName": "Lagoon",
   "description": "Aesthetic teal-to-lavender theme with Dark and Light variants, inspired by gradient code-screenshot vibes.",
-  "version": "1.0.6",
-  "publisher": "dante",
+  "version": "1.0.7",
+  "publisher": "Skaikru0518",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dante/lagoon-theme"
+    "url": "https://github.com/Skaikru0518/lagoon-theme"
   },
   "engines": {
     "vscode": "^1.70.0"
