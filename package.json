@@ -1,10 +1,11 @@
 {
-  "name": "lagoon-theme",
+  "name": "lagoon-dive-night",
   "displayName": "Lagoon",
-  "description": "Aesthetic teal-to-lavender theme with Dark and Light variants, inspired by gradient code-screenshot vibes.",
-  "version": "1.0.7",
-  "publisher": "Skaikru0518",
+  "description": "Aesthetic teal-to-lavender theme with Dark and Light variants, inspired by Tokyo Night.",
+  "version": "1.0.8",
+  "publisher": "PeterDobi",
   "license": "MIT",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Skaikru0518/lagoon-theme"
@@ -38,6 +39,7 @@
   },
   "files": [
     "themes",
+    "icon.png",
     "README.md",
     "LICENSE.md",
     "package.json"
