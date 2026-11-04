@@ -1,0 +1,27 @@
+<idea-plugin>
+  <id>com.skaikru0518.lagoon-theme</id>
+  <name>Lagoon Theme</name>
+  <version>1.0.0</version>
+  <vendor url="https://github.com/Skaikru0518/lagoon-theme">Skaikru0518</vendor>
+
+  <description><![CDATA[
+    Aesthetic teal-to-lavender theme with <b>Dark</b> and <b>Light</b> variants,
+    inspired by gradient code-screenshot vibes. Port of the Lagoon theme for VS Code.
+    <br/><br/>
+    Includes a matching UI theme and editor color scheme for each variant.
+    Enable it in <i>Settings | Appearance &amp; Behavior | Appearance | Theme</i>.
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <b>1.0.0</b> — First JetBrains release: Lagoon Dark and Lagoon Light.
+  ]]></change-notes>
+
+  <idea-version since-build="253"/>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="lagoon-dark" path="/themes/lagoon-dark.theme.json"/>
+    <themeProvider id="lagoon-light" path="/themes/lagoon-light.theme.json"/>
+  </extensions>
+</idea-plugin>
