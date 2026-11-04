@@ -1,0 +1,206 @@
+{
+  "name": "Lagoon Dark",
+  "dark": true,
+  "author": "Skaikru0518",
+  "parentTheme": "Islands Dark",
+  "editorScheme": "/themes/lagoon-dark.xml",
+
+  "colors": {
+    "lagoon-bg-deep": "#0D1015",
+    "lagoon-bg-panel": "#0F1217",
+    "lagoon-bg-editor": "#11141A",
+    "lagoon-bg-hover": "#161A21",
+    "lagoon-bg-selection": "#1E2733",
+    "lagoon-bg-selection-inactive": "#141A22",
+    "lagoon-border-frame": "#07090C",
+    "lagoon-border-subtle": "#1A212A",
+    "lagoon-border": "#22303B",
+    "lagoon-border-strong": "#36424E",
+
+    "lagoon-fg": "#B6BEC7",
+    "lagoon-fg-bright": "#D4DCE3",
+    "lagoon-fg-muted": "#A2ACB6",
+    "lagoon-fg-secondary": "#828E96",
+    "lagoon-fg-disabled": "#565F69",
+
+    "lagoon-teal": "#4DBDA8",
+    "lagoon-teal-bright": "#4DC0B0",
+    "lagoon-teal-deep": "#2D7A72",
+    "lagoon-teal-shade": "#173A37",
+    "lagoon-cyan": "#5FC2D6",
+    "lagoon-blue": "#6B9AC2",
+    "lagoon-lavender": "#A99BE6",
+    "lagoon-green": "#88A496",
+    "lagoon-yellow": "#E0B458",
+    "lagoon-red": "#E66A6A",
+    "lagoon-on-accent": "#05100E",
+
+    "text-default": "lagoon-fg",
+    "text-muted": "lagoon-fg-muted",
+    "text-secondary": "lagoon-fg-secondary",
+    "text-disabled": "lagoon-fg-disabled",
+    "text-over-accent": "#F2FBF9",
+    "text-link": "lagoon-cyan",
+    "text-error": "lagoon-red",
+    "text-warning": "lagoon-yellow",
+    "text-success": "lagoon-green",
+    "editor-text": "lagoon-fg",
+
+    "layer-0-bg": "lagoon-bg-panel",
+    "layer-0-border": "lagoon-border-subtle",
+    "layer-0-bg-inline": "lagoon-bg-deep",
+    "layer-0-border-inline": "lagoon-border-subtle",
+    "layer-1-bg": "lagoon-bg-hover",
+    "layer-1-border": "lagoon-border",
+    "layer-1-bg-inline": "lagoon-bg-selection",
+    "layer-1-border-inline": "lagoon-border",
+    "layer-2-bg": "lagoon-bg-selection",
+    "layer-2-bg-inline": "lagoon-border",
+    "layer-2-border": "lagoon-border",
+    "layer-2-border-inline": "lagoon-border-strong",
+
+    "accent-brand-bg": "lagoon-teal-deep",
+    "accent-brand-border": "lagoon-teal-deep",
+    "accent-brand-bg-secondary": "lagoon-teal-shade",
+    "accent-brand-border-secondary": "lagoon-teal-deep",
+    "accent-error-bg": "#B94A4A",
+    "accent-error-border": "#B94A4A",
+    "accent-error-bg-secondary": "#3A1A1A",
+    "accent-error-border-secondary": "#7A3434",
+    "accent-warning-bg": "#A9832F",
+    "accent-warning-border": "#A9832F",
+    "accent-warning-bg-secondary": "#3A2F18",
+    "accent-warning-border-secondary": "#7A6228",
+    "accent-success-bg": "#3E8F78",
+    "accent-success-border": "#3E8F78",
+    "accent-success-bg-secondary": "#17302A",
+    "accent-success-border-secondary": "#2D5E52",
+    "accent-neutral-bg": "lagoon-border-strong",
+    "accent-ai-bg": "#24223D",
+    "accent-ai-border": "#5C5292",
+
+    "dialog-bg": "lagoon-bg-panel",
+    "dialog-border": "lagoon-border",
+    "popup-bg": "lagoon-bg-panel",
+    "popup-bg-inline": "lagoon-bg-panel",
+    "popup-border": "lagoon-border",
+    "popup-border-inline": "lagoon-border",
+    "editor-bg": "lagoon-bg-editor",
+    "editor-border": "lagoon-border-subtle",
+    "editor-border-alt": "lagoon-border",
+    "tool-window-bg": "lagoon-bg-panel",
+    "tool-window-bg-alt": "lagoon-bg-panel",
+    "tool-window-border": "lagoon-border-subtle",
+    "main-window-bg": "lagoon-bg-deep",
+    "main-window-bg-alt": "lagoon-bg-deep",
+    "main-window-border": "lagoon-border-frame",
+
+    "control-bg": "lagoon-bg-deep",
+    "control-bg-disabled": "lagoon-bg-panel",
+    "control-bg-raised": "lagoon-bg-hover",
+    "control-border": "lagoon-border",
+    "control-border-disabled": "lagoon-border-subtle",
+    "control-border-raised": "lagoon-border-strong",
+    "control-bg-small": "lagoon-border",
+    "control-bg-small-disabled": "lagoon-border-subtle",
+    "control-border-small": "lagoon-border-strong",
+
+    "toolbar-selected-bg": "#1F3B39",
+    "toolbar-selected-bg-hovered": "#24514B",
+
+    "selection-bg-active": "lagoon-bg-selection",
+    "selection-bg-active-muted": "#182029",
+    "selection-bg-inactive": "lagoon-bg-selection-inactive",
+
+    "tab-selected-bg-active": "lagoon-bg-selection",
+    "tab-selected-bg-inactive": "lagoon-bg-hover",
+    "tab-selected-border-active": "lagoon-teal",
+    "tab-selected-border-inactive": "lagoon-border-strong",
+
+    "got-it-bg": "lagoon-teal-deep",
+    "got-it-border": "lagoon-teal-deep",
+    "got-it-text-link": "#82D6E6",
+    "presentation-assistant-bg": "lagoon-teal-deep",
+
+    "toggle-off-bg": "lagoon-bg-deep",
+    "toggle-button-bg": "lagoon-border-strong",
+    "toggle-border": "lagoon-border-strong",
+
+    "editor-floating-toolbar-bg": "lagoon-bg-selection",
+    "popup-completion-match-text": "lagoon-teal-bright",
+    "search-match-bg": "#34564F",
+    "tree-indent-guide-border": "lagoon-border",
+
+    "icon-default-stroke": "lagoon-fg-muted"
+  },
+
+  "ui": {
+    "*": {
+      "focusColor": "lagoon-teal-deep",
+      "underlineColor": "lagoon-teal",
+      "inactiveUnderlineColor": "lagoon-border-strong"
+    },
+
+    "Badge": {
+      "blueBackground": "lagoon-teal",
+      "blueForeground": "lagoon-on-accent",
+      "blueSecondaryBackground": "#2D7A72B3",
+      "blueSecondaryForeground": "#BFEDE4",
+      "greenBackground": "lagoon-green",
+      "greenForeground": "lagoon-on-accent",
+      "purpleSecondaryBackground": "#5C5292B3",
+      "purpleSecondaryForeground": "#DCD5F7"
+    },
+
+    "Component.focusColor": "lagoon-teal-deep",
+    "Component.focusedBorderColor": "lagoon-teal-deep",
+    "Component.errorFocusColor": "lagoon-red",
+    "Component.warningFocusColor": "lagoon-yellow",
+
+    "EditorTabs": {
+      "underlineColor": "lagoon-teal",
+      "inactiveUnderlineColor": "lagoon-border-strong",
+      "underlinedTabForeground": "lagoon-fg-bright"
+    },
+
+    "Link": {
+      "activeForeground": "lagoon-cyan",
+      "hoverForeground": "#82D6E6",
+      "pressedForeground": "#82D6E6",
+      "visitedForeground": "lagoon-lavender"
+    },
+
+    "ProgressBar": {
+      "foreground": "lagoon-teal",
+      "progressColor": "lagoon-teal",
+      "indeterminateStartColor": "lagoon-teal-deep",
+      "indeterminateEndColor": "lagoon-teal",
+      "passedColor": "lagoon-green",
+      "passedEndColor": "#3E8F78",
+      "failedColor": "lagoon-red",
+      "failedEndColor": "#B94A4A"
+    },
+
+    "ScrollBar": {
+      "thumbColor": "#252F3A80",
+      "thumbBorderColor": "#252F3A80",
+      "hoverThumbColor": "lagoon-border-strong",
+      "hoverThumbBorderColor": "lagoon-border-strong",
+      "Transparent.thumbColor": "#252F3A80",
+      "Transparent.thumbBorderColor": "#252F3A80",
+      "Transparent.hoverThumbColor": "lagoon-border-strong",
+      "Transparent.hoverThumbBorderColor": "lagoon-border-strong",
+      "Mac.thumbColor": "#252F3A80",
+      "Mac.thumbBorderColor": "#252F3A80",
+      "Mac.hoverThumbColor": "lagoon-border-strong",
+      "Mac.hoverThumbBorderColor": "lagoon-border-strong",
+      "Mac.Transparent.thumbColor": "#252F3A80",
+      "Mac.Transparent.thumbBorderColor": "#252F3A80",
+      "Mac.Transparent.hoverThumbColor": "lagoon-border-strong",
+      "Mac.Transparent.hoverThumbBorderColor": "lagoon-border-strong"
+    },
+
+    "Tree.modifiedItemForeground": "lagoon-blue",
+    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#173A3780"
+  }
+}
